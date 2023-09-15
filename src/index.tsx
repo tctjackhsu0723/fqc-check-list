@@ -30,6 +30,7 @@ import { data61 } from "./data6/fqc-check-list-demo-data61";
 import { data62 } from "./data6/fqc-check-list-demo-data62";
 import { data63 } from "./data6/fqc-check-list-demo-data63";
 import { data64 } from "./data6/fqc-check-list-demo-data64";
+
 // import { ProgressBarRenderer } from "./renderers/ProgressBar";
 // import { StarsRenderer } from "./renderers/Stars";
 
@@ -119,7 +120,7 @@ const App21 = () => {
         { row: 2, col: 0, readOnly: true },
         { row: 2, col: 2, readOnly: true },
         { row: 2, col: 4, readOnly: true },
-        { row: 2, col: 6, readOnly: true }
+        { row: 2, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -166,27 +167,27 @@ const App22 = () => {
         {
           row: 0,
           col: 0,
-          className: "htCenter htMiddle"
+          className: "htCenter htMiddle",
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 1,
           className: "htCenter htMiddle",
           readOnly: true,
-          type: "text"
+          type: "text",
         },
         {
           row: 1,
           col: 2,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" readOnly={true} />
@@ -229,14 +230,14 @@ const App23 = () => {
           row: 0,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -277,8 +278,8 @@ const App24 = () => {
           row: 0,
           col: 0,
           className: "htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" />
@@ -324,7 +325,7 @@ const App31 = () => {
       cell={[
         { row: 0, col: 0, readOnly: true },
         { row: 0, col: 4, readOnly: true },
-        { row: 0, col: 6, readOnly: true }
+        { row: 0, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -371,27 +372,27 @@ const App32 = () => {
         {
           row: 0,
           col: 0,
-          className: "htCenter htMiddle"
+          className: "htCenter htMiddle",
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 1,
           className: "htCenter htMiddle",
           readOnly: true,
-          type: "text"
+          type: "text",
         },
         {
           row: 1,
           col: 2,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" readOnly={true} />
@@ -433,27 +434,27 @@ const App33 = () => {
         {
           row: 0,
           col: 0,
-          className: "htCenter htMiddle"
+          className: "htCenter htMiddle",
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 1,
           className: "htCenter htMiddle",
           readOnly: true,
-          type: "text"
+          type: "text",
         },
         {
           row: 1,
           col: 2,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" readOnly={true} />
@@ -495,27 +496,27 @@ const App34 = () => {
         {
           row: 0,
           col: 0,
-          className: "htCenter htMiddle"
+          className: "htCenter htMiddle",
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 1,
           className: "htCenter htMiddle",
           readOnly: true,
-          type: "text"
+          type: "text",
         },
         {
           row: 1,
           col: 2,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" readOnly={true} />
@@ -557,8 +558,8 @@ const App35 = () => {
           row: 0,
           col: 0,
           className: "htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" />
@@ -602,7 +603,7 @@ const App41 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 7 },
-        { row: 2, col: 0, rowspan: 40, colspan: 1 }
+        { row: 2, col: 0, rowspan: 40, colspan: 1 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -612,7 +613,7 @@ const App41 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -656,7 +657,7 @@ const App42 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 7 },
-        { row: 2, col: 0, rowspan: 40, colspan: 1 }
+        { row: 2, col: 0, rowspan: 40, colspan: 1 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -666,7 +667,7 @@ const App42 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -710,7 +711,7 @@ const App43 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 2 },
-        { row: 43, col: 0, rowspan: 1, colspan: 2 }
+        { row: 43, col: 0, rowspan: 1, colspan: 2 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -718,7 +719,7 @@ const App43 = () => {
         { row: 1, col: 1, readOnly: true },
         { row: 43, col: 0, readOnly: true },
         { row: 44, col: 0, readOnly: true },
-        { row: 44, col: 1, readOnly: true }
+        { row: 44, col: 1, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -762,7 +763,7 @@ const App44 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 7 },
-        { row: 2, col: 0, rowspan: 40, colspan: 1 }
+        { row: 2, col: 0, rowspan: 40, colspan: 1 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -772,7 +773,7 @@ const App44 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -816,7 +817,7 @@ const App45 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 7 },
-        { row: 2, col: 0, rowspan: 40, colspan: 1 }
+        { row: 2, col: 0, rowspan: 40, colspan: 1 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -826,7 +827,7 @@ const App45 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -870,7 +871,7 @@ const App46 = () => {
       licenseKey="non-commercial-and-evaluation"
       mergeCells={[
         { row: 0, col: 0, rowspan: 1, colspan: 2 },
-        { row: 43, col: 0, rowspan: 1, colspan: 2 }
+        { row: 43, col: 0, rowspan: 1, colspan: 2 },
       ]}
       cell={[
         { row: 0, col: 0, readOnly: true },
@@ -878,7 +879,7 @@ const App46 = () => {
         { row: 1, col: 1, readOnly: true },
         { row: 43, col: 0, readOnly: true },
         { row: 44, col: 0, readOnly: true },
-        { row: 44, col: 1, readOnly: true }
+        { row: 44, col: 1, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -932,7 +933,7 @@ const App51 = () => {
         { row: 2, col: 0, readOnly: true },
         { row: 2, col: 2, readOnly: true },
         { row: 2, col: 4, readOnly: true },
-        { row: 2, col: 6, readOnly: true }
+        { row: 2, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -983,7 +984,7 @@ const App52 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -1029,14 +1030,14 @@ const App53 = () => {
           row: 0,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -1078,8 +1079,8 @@ const App54 = () => {
           row: 0,
           col: 0,
           className: "htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" />
@@ -1130,7 +1131,7 @@ const App55 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -1153,16 +1154,8 @@ const App61 = () => {
       height="auto"
       width={twidth}
       colWidths={[
-        231.7,
-        231.7,
+        231.7, 231.7, 109.55, 109.55, 109.55, 109.55, 109.55, 109.55, 109.55,
         109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55
       ]}
       colHeaders={false}
       rowHeaders={false}
@@ -1196,7 +1189,7 @@ const App61 = () => {
         { row: 2, col: 0, readOnly: true },
         { row: 2, col: 2, readOnly: true },
         { row: 2, col: 4, readOnly: true },
-        { row: 2, col: 6, readOnly: true }
+        { row: 2, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -1221,16 +1214,8 @@ const App62 = () => {
       height="auto"
       width={twidth}
       colWidths={[
-        231.7,
-        231.7,
+        231.7, 231.7, 109.55, 109.55, 109.55, 109.55, 109.55, 109.55, 109.55,
         109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55,
-        109.55
       ]} // 8764 / 6
       colHeaders={false}
       rowHeaders={false}
@@ -1260,7 +1245,7 @@ const App62 = () => {
         { row: 1, col: 3, readOnly: true },
         { row: 1, col: 4, readOnly: true },
         { row: 1, col: 5, readOnly: true },
-        { row: 1, col: 6, readOnly: true }
+        { row: 1, col: 6, readOnly: true },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" readOnly={true} />
@@ -1310,14 +1295,14 @@ const App63 = () => {
           row: 0,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
+          readOnly: true,
         },
         {
           row: 1,
           col: 0,
           className: "htCenter htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htCenter htMiddle" />
@@ -1359,8 +1344,8 @@ const App64 = () => {
           row: 0,
           col: 0,
           className: "htMiddle",
-          readOnly: true
-        }
+          readOnly: true,
+        },
       ]}
     >
       <HotColumn data={0} className="htMiddle" />
