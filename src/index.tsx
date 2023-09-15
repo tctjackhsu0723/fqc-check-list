@@ -30,7 +30,6 @@ import { data61 } from "./data6/fqc-check-list-demo-data61";
 import { data62 } from "./data6/fqc-check-list-demo-data62";
 import { data63 } from "./data6/fqc-check-list-demo-data63";
 import { data64 } from "./data6/fqc-check-list-demo-data64";
-
 // import { ProgressBarRenderer } from "./renderers/ProgressBar";
 // import { StarsRenderer } from "./renderers/Stars";
 
